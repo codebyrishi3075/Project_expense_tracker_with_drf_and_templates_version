@@ -1,0 +1,207 @@
+# Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Database
+db.sqlite3
+db.sqlite3-journal
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Static and Media files
+/static/
+/media/
+/staticfiles/
+/mediafiles/
+
+# Django logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+.sublime-project
+.sublime-workspace
+*.sublime-project
+*.sublime-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+*~
+
+# VS Code
+.vscode/
+.vscode-test
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# Linux
+.fuse_hidden*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+ENV/
+.venv
+env/
+
+# Testing
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.pytest_cache
+
+# Node (for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.npm/
+package-lock.json
+yarn.lock
+
+# Frontend build outputs
+/frontend/build/
+/frontend/dist/
+/frontend/.env.local
+/frontend/.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.backup
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Certifications and Keys
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# Backup files from migrations
+migrations/*.pyc
+migrations/__pycache__
+
+# Secret files
+secrets/
+sensitive_data/
+
+# Compiled documentation
+site/
+docs/_build/
+
+# IDEs misc
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Celery
+celerybeat-schedule
+
+# Docker
+*.dockerignore
+.docker/
+
+# Miscellaneous
+*.o
+*.out
+dist/
+build/
+.eggs/
+__pycache__
