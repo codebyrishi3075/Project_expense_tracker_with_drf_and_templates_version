@@ -17,15 +17,21 @@ def register_view(request):
     return render(request, "users/register.html", {"form": form})
 
 
+from django.contrib import messages
+
 def login_view(request):
     if request.method == "POST":
         username = request.POST.get("username")
         password = request.POST.get("password")
+
         user = authenticate_user(username, password)
 
         if user:
             login(request, user)
+            messages.success(request, "Login successful.")
             return redirect("dashboard-home")
+        else:
+            messages.error(request, "Invalid username or password.")
 
     return render(request, "users/login.html")
 
